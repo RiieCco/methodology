@@ -1,7 +1,7 @@
 collections:
   requirements_traceability_matrix:
     output: true
-    permalink: /requirements_traceability_matrix/:name/
+    permalink: /Web/Process/Introduction/:name/
   threat_modeling:
     output: true
     permalink: /threat_modeling/:name/
