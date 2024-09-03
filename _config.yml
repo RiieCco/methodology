@@ -1,3 +1,21 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme #
+
+collections:
+  requirements_traceability_matrix:
+    output: true
+    permalink: /requirements_traceability_matrix/:name/
+  threat_modeling:
+    output: true
+    permalink: /threat_modeling/:name/
+  reconnaissance:
+    output: true
+    permalink: /reconnaissance/:name/
+  tool_assisted_vulnerability_identification:
+    output: true
+    permalink: /tool_assisted_vulnerability_identification/:name/
+  review_and_analysis:
+    output: true
+    permalink: /review_and_analysis/:name/
+
